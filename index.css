@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Vava;
+    src: url('./scripts/assets/ValorantFont.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.textValorant{
+    margin-top: 30%;
+    font-size: 38px;
+    margin-bottom: 10%;
+    font-family: Vava;
+    color:#16062d ;
+}
+
+#DisplayCad{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row
+}
+.LeftContainer{
+    background-color: hsl(308, 60%, 76%);
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 80%;
+    height: 70%;
+
+}
+
+.InputsTexts{
+    display: grid;
+   font-family: 'Gugi', cursive;
+}
+.contactBtn{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+.contactBtn>a>button{
+    width: 4vw;
+    height: 2.5vw;
+    font-size: 18px;
+}
+.insta,.blog,.git,.linkedin{
+    color: aliceblue;
+    background-color:#4c138671;
+    border:solid 2px #2e0d5957;
+    transition: all,ease-in,.5s;
+    border-radius: 2px;
+}
+.insta:hover,.blog:hover,.git:hover,.linkedin:hover{
+    background-color:#4c1386;
+    border:solid 2px #2e0d59;
+
+}
+.ContactBottom{
+    width: 100%;
+}
+
+#SubmitBtn{
+    width: 4vw;
+    height: 6vh;
+    margin-left: 42.5%;
+    margin-top: 20vh;
+    background-image: url('./imgs/jett.png');
+    background-position: center;
+    border-radius: 8px;
+    background-size: contain;
+    background-color:  hsl(308, 60%, 76%);
+    border: solid 1px  hsl(307, 26%, 57%);
+    transition: all,ease-in,2s;
+}
+
+#SubmitBtn:hover{
+    background-size: cover;
+    background-color:  hsl(308, 71%, 70%);
+}
+
+.RightContainer{
+    width: 80%;
+    height: 100vh;
+    background-image: url('./imgs/valorant-killjoy-valorant-digital-art-artwork-digital-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.BtnsRigthContainer{
+    width: 72.5%;
+    height: 10vh;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.BtnRightCont{
+    width: 3.5vw;
+    height: 7vh;
+    background-image: url('./imgs/2-killjoy-basic-ability-alarmbot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #6119a8;
+    border-radius: 8px;
+    margin-left: 1%;
+    margin-top: 1%;
+    border: solid 1,5px #420e57fd;
+    transition: all,ease-in,2s;
+}
+
+.BtnLeftCont{
+    width: 3.5vw;
+    height: 7vh;
+    background-image: url('./imgs/4-killjoy-ultimate-ability-lockdown.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #6119a8;
+    border-radius: 8px;
+    margin-left: 1%;
+    margin-top: 1%;
+    border: solid 1,5px #420e57;
+    transition: all,ease-in,2s;
+}
+
+.BtnLeftCont:hover,.BtnRightCont:hover{
+    background-color: #420e57;
+
+}
+
